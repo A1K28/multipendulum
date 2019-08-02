@@ -9,7 +9,9 @@ pip install pygame
 
 ## Demo
 Demonstration of the project:
+
 <a href="https://www.youtube.com"><img src="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif" alt="123123bbb36354161fd2cc.gif" border="0" /></a>
+
 For a better demo/explanation of the project, visit [Youtube](https://www.youtube.com)
 
 ## Contributing

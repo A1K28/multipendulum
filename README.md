@@ -3,7 +3,7 @@ This build supports both simple and complex/compound pendulum systems (assuming 
 
 __NOTE-TO-SELF:__ _keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes._
 
-__NOTE:__ _if you are keen on a Complex/Compound pendulum, you might find [This Video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
+__NOTE:__ _if you are keen on a Complex/Compound pendulum, you might find [this video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
 
 ## Accession
 To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:
@@ -15,8 +15,6 @@ pip install pygame
 Demonstration of the project:
 
 <a href="https://www.youtube.com"><img src="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif" alt="123123bbb36354161fd2cc.gif" border="0" /></a>
-
-For a better demo/explanation, visit [Youtube](https://www.youtube.com)
 
 ## Methods for Solving Partial Differential Equations (PDE-s)
 The script currently contains 3 types of methods for solving PDE-s

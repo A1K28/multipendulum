@@ -1,6 +1,8 @@
 # Multi-Pendulum Project
 This build supports both simple and complex/compound pendulum (assuming no friction at the pivot or air resistance). 5 formulas of equations of motion for the multi-simple pendulum are derived via MatLab. This project allows for a fully customizable/interactive pendulum simulation with 3 methods for PDE-s and an ability to use none of them, comes with a GUI, is easily generalizable.  This project is to simply show that it is possible to create a simulation of N number of pendulums at once given the computational resources.
 
+NOTE-TO-SELF: keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes.
+
 ## Accession
 To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:
 ```bash

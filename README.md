@@ -3,6 +3,8 @@ This build supports both simple and complex/compound pendulum systems (assuming 
 
 __NOTE-TO-SELF:__ _keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes._
 
+__NOTE:__ _if you are keen on a Complex/Compound pendulum, you might find [This Video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting.
+
 ## Accession
 To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:
 ```bash

@@ -14,7 +14,7 @@ pip install pygame
 ## Demo
 Demonstration of the project:
 
-<a href="https://www.youtube.com"><img src="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif" alt="123123bbb36354161fd2cc.gif" border="0" /></a>
+<a href="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif"><img src="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif" alt="123123bbb36354161fd2cc.gif" border="0" /></a>
 
 ## Methods for Solving Partial Differential Equations (PDE-s)
 The script currently contains 3 types of methods for solving PDE-s

@@ -3,7 +3,9 @@ This build supports both simple and complex/compound pendulum systems (assuming 
 
 __NOTE-TO-SELF:__ _keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes._
 
-__NOTE:__ _if you are keen on a Complex/Compound pendulum, you might find [this video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
+__NOTE-0:__ _This sim is not meant to be used for a physics inspiration in a video game in any way whatsoever. As far as video games go, for that purpose, we can simplify things incredibly by using verlet integration (which faster and easy to implement, if you had it in mind from the beginning). E.g. we can simulate hundreds of pendula at once without having to worry for computational resources, although inaccurate._
+
+__NOTE-1:__ _if you are keen on a Complex/Compound pendulum, you might find [this video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
 
 ## Accession
 To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:

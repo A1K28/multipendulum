@@ -26,10 +26,7 @@ The script currently contains 3 types of methods for solving PDE-s
 
 It is important to note that different methods of solving equations greatly affect the overall motion of the pendula system. Currently (at least in this project), the RK-IV-I method can be used for closest approximation - keeping in mind that the RK-IV-I is the slowest of the 4.
 
-
-<a href="
-https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Runge-kutta.svg/1200px-Runge-kutta.svg.png"><img src="
-https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Runge-kutta.svg/1200px-Runge-kutta.svg.png" alt="graph comparison" border="0" /></a>
+<a href="https://ibb.co/nrZgHHm"><img src="https://i.ibb.co/tBkm77K/Runge-kutta-svg-1.png" alt="Runge-kutta-svg-1" border="0"></a>
 
 The 4-th method simply implies not using any of the aforementioned methods to solve for velocity. Instead, we directly solve with respect to acceleration and change velocity FPS times per second, where FPS is a constant. Moreover, by the equations of motion it is implied that each pendulum has its own equation for the second order derivative of the angle with respect to time. since the length of the pendulum is constant, we can use polar coordinates and portray its position by a single variable - angle (fi), instead of 2 variables (x,y) on the cartesian plane. giving a single simple pendulum only 1 degree of freedom. which is great news.
 

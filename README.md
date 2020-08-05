@@ -20,9 +20,9 @@ Demonstration of the project:
 
 ## Methods for Solving Partial Differential Equations (PDE-s)
 The script currently contains 3 types of methods for solving PDE-s
-1) Euler's Method with time complexity of O(n^2)
-2) Runge-Kutta Method (II-order, I-derivative) with time complexity of O(n^3)
-3) Runge-Kutta Method (IV-order, I-derivative) with time complexity of O(n^5)
+1) Euler's Method
+2) Runge-Kutta Method (II-order, I-derivative)
+3) Runge-Kutta Method (IV-order, I-derivative)
 
 It is important to note that different methods of solving equations greatly affect the overall motion of the pendula system. Currently (at least in this project), the RK-IV-I method can be used for closest approximation - keeping in mind that the RK-IV-I is the slowest of the 4.
 

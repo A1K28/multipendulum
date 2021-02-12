@@ -30,7 +30,7 @@ It is important to note that different methods of solving equations greatly affe
 
 The 4-th method simply implies not using any of the aforementioned methods to solve for velocity. Instead, we directly solve with respect to acceleration and change velocity FPS times per second, where FPS is a constant. Moreover, by the equations of motion it is implied that each pendulum has its own equation for the second order derivative of the angle with respect to time. since the length of the pendulum is constant, we can use polar coordinates and portray its position by a single variable - angle (fi), instead of 2 variables (x,y) on the cartesian plane. giving a single simple pendulum only 1 degree of freedom. which is great news.
 
-The second order derivative of the angle with respect to time is acceleration. However our functions (Eqs of motion) do not have time as a variable implicitly, our functions don't have time as a variable, thus we let: dw0/dt=C ==> w0=C*t.
+The second order derivative of the angle with respect to time is acceleration. However our functions (Eqs of motion) do not have time as a variable, thus we let: dw0/dt=C ==> w0=C*t.
 
 
 ## Final Notes

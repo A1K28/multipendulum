@@ -16,7 +16,7 @@ pip install pygame
 ## Demo
 Demonstration of the project:
 
-<a href="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif"><img src="https://s3.gifyu.com/images/123123bbb36354161fd2cc.gif" alt="demo gif" border="0" /></a>
+![](trimmed-pendulum-mp4-gif.gif)
 
 ## Methods for Solving Partial Differential Equations (PDE-s)
 The script currently contains 3 types of methods for solving PDE-s
@@ -33,8 +33,5 @@ The 4-th method simply implies not using any of the aforementioned methods to so
 The second order derivative of the angle with respect to time is acceleration. However our functions (Eqs of motion) do not have time as a variable implicitly, so we have to define them explicitly, such that dw(fi)/dt=C ==> w = C * t where w is velocity, Thus getting the desired result.
 
 
-## Contributing
-I welcome any pull requests. Keep in mind that the "my_gui.py" file requires optimization and reading it in its current state may be hard, focus on the main python script. Any questions regarding how it works can be directly sent to me at: aleksandrekhorbaladze@gmail.com
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Final Notes
+I welcome any pull requests. contact: aleksandrekhorbaladze@gmail.com

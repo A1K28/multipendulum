@@ -7,9 +7,10 @@ Demonstration of the project:
 ![](trimmed-pendulum-mp4-gif.gif)
 
 ## Accession
-To run this project simply clone the repository and run "python py_pend_proj.py" in terminal. Keep in mind to install the dependency:
+To run this project simply clone the repository, install the dependency and run the script:
 ```bash
 pip install pygame
+python py_pend_proj.py
 ```
 
 ## Methods for Solving Partial Differential Equations (PDE-s)

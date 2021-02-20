@@ -1,22 +1,16 @@
 # Multi-Pendulum Project
 This build supports both simple and complex/compound pendulum systems (assuming no friction at the pivot or air resistance). 5 formulas of equations of motion for the multi-simple pendulum are derived via MatLab. This project allows for a fully customizable/interactive pendulum simulation with 3 methods for PDE-s and an ability to use none of them, comes with a GUI, is easily generalizable.  This project is to simply show that it is possible to create a simulation of N number of pendulums at once given the computational resources.
 
-__NOTE-TO-SELF:__ _keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes._
+## Demo
+Demonstration of the project:
 
-__NOTE-0:__ _This sim is not meant to be used for a physics inspiration in a video game in any way whatsoever. As far as video games go, for that purpose, we can simplify things incredibly by using verlet integration (which faster and easy to implement, if you had it in mind from the beginning). E.g. we can simulate hundreds of pendula at once without having to worry for computational resources, although inaccurate._
-
-__NOTE-1:__ _if you are keen on a Complex/Compound pendulum, you might find [this video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
+![](trimmed-pendulum-mp4-gif.gif)
 
 ## Accession
 To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:
 ```bash
 pip install pygame
 ```
-
-## Demo
-Demonstration of the project:
-
-![](trimmed-pendulum-mp4-gif.gif)
 
 ## Methods for Solving Partial Differential Equations (PDE-s)
 The script currently contains 3 types of methods for solving PDE-s
@@ -32,6 +26,9 @@ The 4-th method simply implies not using any of the aforementioned methods to so
 
 The second order derivative of the angle with respect to time is acceleration. However our functions (Eqs of motion) do not have time as a variable, thus we let: dw0/dt=C ==> w0=C*t.
 
-
 ## Final Notes
+1. _Keep the gui OFF after messing around with the variables to put less pressure on the CPU and also to be able to interact with the system via mouse. That last feauture is simply there to avoid making easy mistakes._
+2. _This sim is not meant to be used for a physics inspiration in a video game in any way whatsoever. As far as video games go, for that purpose, we can simplify things incredibly by using verlet integration (which faster and easy to implement, if you had it in mind from the beginning). E.g. we can simulate hundreds of pendula at once without having to worry for computational resources, although inaccurate._
+3. _If you are keen on a Complex/Compound pendulum, you might find [this video](https://www.youtube.com/watch?v=AzrhbhZEz1I&t=1s) interesting._
+
 I welcome any pull requests. contact: aleksandrekhorbaladze@gmail.com

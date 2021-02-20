@@ -7,7 +7,7 @@ Demonstration of the project:
 ![](trimmed-pendulum-mp4-gif.gif)
 
 ## Accession
-To run this project simply clone the repository and run "py_pend_run.bat". Keep in mind to install the dependency:
+To run this project simply clone the repository and run "python py_pend_proj.py" in terminal. Keep in mind to install the dependency:
 ```bash
 pip install pygame
 ```
